@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical"
+    tools:context=".ui.activity.EditActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:text="@string/name_program"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@android:color/white"
+        android:hint="@string/name_program"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:text="@string/plane_data"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@android:color/white"
+        android:hint="@string/plane_data"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:text="@string/procent_progress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@android:color/white"
+        android:hint="@string/plane_data"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding" />
+
+</LinearLayout>

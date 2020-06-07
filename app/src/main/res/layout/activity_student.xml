@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical"
+    tools:context=".ui.activity.StudentActivity">
+
+    <Button
+        android:id="@+id/adaptation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:text="@string/adaptation"
+        android:background="@drawable/bg_button_white" />
+
+    <Button
+        android:id="@+id/event"
+        android:text="@string/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white" />
+
+    <Button
+        android:id="@+id/teacher"
+        android:text="@string/teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white" />
+
+    <Button
+        android:id="@+id/manager"
+        android:text="@string/hr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white" />
+
+    <Button
+        android:id="@+id/message"
+        android:text="@string/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white" />
+
+</LinearLayout>

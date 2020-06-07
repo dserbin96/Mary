@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical"
+    tools:context=".ui.activity.StudentActivity">
+
+    <Button
+        android:id="@+id/adaptation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/adaptation" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/info" />
+
+    <Button
+        android:id="@+id/teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/teacher" />
+
+    <Button
+        android:id="@+id/director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/director" />
+
+</LinearLayout>

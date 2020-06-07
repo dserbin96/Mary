@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mary</string>
+    <string name="auth">Авторизация</string>
+    <string name="sign_in">Войти</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="adaptation">Программа адаптации</string>
+    <string name="event">Мероприятие</string>
+    <string name="teacher">Наставник</string>
+    <string name="hr">HR - менеджер</string>
+    <string name="message">Сообщения</string>
+    <string name="events">Мероприятия</string>
+    <string name="teacher_info">Контактные данные наставника</string>
+    <string name="fake_fio">Иванов Иван Иванович</string>
+    <string name="fake_phone">Иванов Иван Иванович</string>
+    <string name="phone_title">Мобильный телефон:</string>
+    <string name="workPhone">Рабочий телефон:</string>
+    <string name="status_name">Должность:</string>
+    <string name="status_info">Ведущий системный аналитик</string>
+    <string name="status_info2">Специалист по персоналу</string>
+    <string name="department_title">Отдел:</string>
+    <string name="orisp">ОРИСП</string>
+    <string name="hr_info">Контактные данные HR-менеджера</string>
+    <string name="hr_department">Отдел кадров</string>
+    <string name="fake_fio2">Петров Петр Петрович</string>
+    <string name="people">Люди</string>
+    <string name="dialog">Диалоги</string>
+    <string name="teachers">Наставники</string>
+    <string name="students">Стажеры</string>
+    <string name="director">Руководитель</string>
+    <string name="info">Контактные данные</string>
+    <string name="edit">Редактировать</string>
+    <string name="edit_program">Редактировать программу</string>
+    <string name="name_program">Название действия программы</string>
+    <string name="plane_data">Плановая дата выполнения</string>
+    <string name="procent_progress">Процент прохождения</string>
+</resources>

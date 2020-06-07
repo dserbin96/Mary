@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical"
+    tools:context=".ui.activity.StudentActivity">
+
+    <Button
+        android:id="@+id/students"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/students" />
+
+    <Button
+        android:id="@+id/teachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/teachers" />
+
+    <Button
+        android:id="@+id/events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/events" />
+
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_extra"
+        android:layout_marginTop="@dimen/margin_extra"
+        android:layout_marginEnd="@dimen/margin_extra"
+        android:background="@drawable/bg_button_white"
+        android:text="@string/message" />
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    tools:context=".ui.activity.AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/fake_fio2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_name" />
+
+        <TextView
+            android:id="@+id/phoneTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/phone_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+79181111111"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/workPhoneTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/workPhone"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/workPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="+79182222222"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/statusName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/status_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/statusInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/status_info2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/departmentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/department_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+        <TextView
+            android:id="@+id/departmentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:text="@string/hr_department"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_title" />
+
+    </LinearLayout>
+
+</FrameLayout>
